@@ -69,15 +69,18 @@ public class SimpleIME extends InputMethodService implements KeyboardView.OnKeyb
             } else if(lastCode == 100 || lastCode == 240) {
                 lastCode = 240;
                 ic.commitText(String.valueOf((char)lastCode), 1);
+                ic.commitText(String.valueOf((char)798), 1);
             } else if(lastCode == 103 || lastCode == 611) {
                 lastCode = 611;
                 ic.commitText(String.valueOf((char)lastCode), 1);
+                ic.commitText(String.valueOf((char)798), 1);
             } else if(lastCode == 108 || lastCode == 619) {
                 lastCode = 619;
                 ic.commitText(String.valueOf((char)lastCode), 1);
             } else if(lastCode == 98 || lastCode == 946) {
                 lastCode = 946;
                 ic.commitText(String.valueOf((char)lastCode), 1);
+                ic.commitText(String.valueOf((char)798), 1);
             } else if(lastCode == 109 || lastCode == 625) {
                 lastCode = 625;
                 ic.commitText(String.valueOf((char)lastCode), 1);
